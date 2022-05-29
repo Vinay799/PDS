@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ration Shop Status</string>
+    <string name="app_title">PDS</string>
+    <string name="app_abbr">Public Distributed Service </string>
+    <string name="title1">Login Form (Admin)</string>
+    <string name="header1">User Id (or) Ration Shop Unique Number</string>
+    <string name="title2">Password</string>
+</resources>

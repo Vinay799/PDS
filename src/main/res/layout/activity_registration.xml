@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#629AC6"
+    tools:context=".RegistrationForm">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="New Registration Form (Admin)"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/t1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Govt Approved Ration Manager Name"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Ration Shop Number"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="password" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Confirm Password"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Confirm password" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et4"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Register"
+        android:textColor="#000000"
+        android:textColorHighlight="#29336C"
+        android:textColorHint="#000000"
+        android:textColorLink="#25306E"
+        android:textStyle="bold" />
+
+</RelativeLayout>

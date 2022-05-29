@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#629AC6"
+    tools:context=".LoginPage">
+
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/title1"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/header1"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header1"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userid"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/title2"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title2"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        android:textColor="#000000"
+        android:textColorHighlight="#16646E"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/button2"
+        android:text="New Registration"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+</RelativeLayout>
